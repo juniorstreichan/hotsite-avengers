@@ -1,0 +1,178 @@
+	<!DOCTYPE html>
+	<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Contato</title>
+		<meta name="theme-color" content="rgba(0,0,0,0.5)">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/grade.css">
+		<link rel="stylesheet" type="text/css" href="css/avengers.css">
+		<link rel="stylesheet" type="text/css" href="css/modal.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+		<header id="topo">
+
+			<div class="t12">
+				<a href="personagens.html">
+					<div class=" esquerda texto-avengers text-white" style="padding-left: 25px;">
+						<h3>PERSONAGENS</h3>
+					</div>
+				</a>
+				<a href="index.html">
+					<div class="t4 direita texto-avengers text-white" style="padding-right: 25px;">
+						<h3>HOME</h3>
+					</div>
+
+				</a>
+			</div>
+
+			<!-- NAVBAR FIXA NO TOPO -->
+			<div id="nav-topo" class="text-white">
+				<a href="personagens.html">
+					<div class="text-nav esquerda texto-avengers text-white" style="padding-left: 25px;">
+						<h3>PERSONAGENS</h3>
+					</div>
+				</a>
+				<a href="index.html">
+					<div class="text-nav t4 direita texto-avengers text-white" style="padding-right: 25px;">
+						<h3>HOME</h3>
+					</div>
+
+				</a>
+				<div class="texto-centralizado">
+					<a href="#topo" class="scroll-suave"><img src="img/logo.png" id="logo-nav"></a>
+				</div>
+
+			</div>
+			<!-- FIM NAVBAR FIXA NO TOPO -->
+			<!-- BOTAO VOLTAR AO TOPO -->
+			<div id="btn-up">
+				<a  href="#topo" class="scroll-suave">
+					<i class="material-icons botao">arrow_upward</i>
+				</a>
+			</div>
+			<!-- FIM BOTAO VOLTAR AO TOPO -->
+
+		</header>
+
+		<section>
+			<div id="card-contato" class="caixa">
+				<div class="t12 texto-centralizado texto-avengers">
+					<h1 class="destaque">Fale Conosco</h1>
+				</div>
+				<div class="t12 texto-centralizado text-white">
+					<form method="POST">
+						
+						<label for="nome"><strong><i class="material-icons" >account_circle</i> Nome</strong></label>
+						<input type="text" id="nome" name="nome" placeholder="Ex: Tony Stark" required="true" /><br><br>
+						<label for="email"><strong><i class="material-icons" >contact_mail</i> Email</strong></label>
+
+						<input type="email" id="email" name="email" placeholder="Ex: tony@marvel.com" required="true"><br><br>
+
+						<label for="cidade"><strong><i class="material-icons" >location_city</i> Cidade</strong></label>
+						<input type="text" id="cidade" name="cidade" placeholder="Ex: New York" required="true" /><br><br>
+
+						<label for="estado"><strong><i class="material-icons" >location_on</i> Estado</strong></label>
+						<select id="estado" name="estados-brasil">
+							<option value="AC">Acre</option>
+							<option value="AL">Alagoas</option>
+							<option value="AP">Amapá</option>
+							<option value="AM">Amazonas</option>
+							<option value="BA">Bahia</option>
+							<option value="CE">Ceará</option>
+							<option value="DF">Distrito Federal</option>
+							<option value="ES">Espírito Santo</option>
+							<option value="GO">Goiás</option>
+							<option value="MA">Maranhão</option>
+							<option value="MT">Mato Grosso</option>
+							<option value="MS">Mato Grosso do Sul</option>
+							<option value="MG">Minas Gerais</option>
+							<option value="PA">Pará</option>
+							<option value="PB">Paraíba</option>
+							<option value="PR">Paraná</option>
+							<option value="PE">Pernambuco</option>
+							<option value="PI">Piauí</option>
+							<option value="RJ">Rio de Janeiro</option>
+							<option value="RN">Rio Grande do Norte</option>
+							<option value="RS">Rio Grande do Sul</option>
+							<option value="RO">Rondônia</option>
+							<option value="RR">Roraima</option>
+							<option value="SC">Santa Catarina</option>
+							<option value="SP">São Paulo</option>
+							<option value="SE">Sergipe</option>
+							<option value="TO">Tocantins</option>
+						</select>
+						<br><br><br>
+						<label for="msg"><strong> <i class="material-icons" >message</i> Mensagem</strong></label>
+						<textarea id="msg" required="true">
+							
+						</textarea>
+						<br><br>
+						<label for="ch-filme"><strong>Quero Assistir o Filme</strong></label>
+						<div class="caixa">
+							<input id="ch-filme" name="check-filme" type="checkbox"> 
+						</div>
+						<br><br>
+						<div id="dia" class="caixa">
+							<label for="dia"><strong>Selecione o Dia que deseja Assistir</strong></label>
+							​<label class="radio-inline">
+								26/04/2018<input type="radio" name="optradio">15 hrs
+							</label>
+							<label class="radio-inline">
+								27/04/2018<input type="radio" name="optradio">20 hrs
+							</label>
+							<label class="radio-inline">
+								28/04/2018<input type="radio" name="optradio">17 hrs
+							</label>
+						</div>
+
+
+						<br><br>
+						<button type="submit" style="background-color: #00B62F;" class="botao">
+							<strong>Enviar		</strong><i class="material-icons" >send</i>
+						</button>
+						<br><br><br>
+					</form>
+				</div>
+			</div>
+		</section>
+		<br>
+		<br>
+		<br>	
+
+		<footer style="background-color: #900000;">
+			<br>
+			<br>
+			<br>
+			<div class="caixa fonte-media text-white">
+
+				<h3>Mapa do Site</h3>
+				<div class="t12">
+					<a class="botao" href="index.html">Home</a> <br>
+					<a class="botao" href="personagens.html">Personagens</a> <br>
+					<a class="botao" href="contato.html">Contato</a> <br>
+					
+				</div>
+
+				<div class="texto-direita">
+					<h3>Desenvolvido por</h3> <a href="https://github.com/juniorstreichan" target="_blank" class="botao">Junior Streichan</a>
+				</div>
+
+			</div>
+
+			<br>
+			<br>
+			<br>
+			<br>
+		</footer>
+
+
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/avengers.js"></script>
+		<script type="text/javascript" src="js/modal.js"></script>
+
+	</body>
+	</html>
